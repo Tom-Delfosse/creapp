@@ -1,0 +1,121 @@
+CASE STUDY - UN PROJET SIMPLE ET UTILE
+
+Ce TFA, complexe non pas pour son contenu mais pour son contexte, m’aura appris une chose fondamentale&#8239;: L’objectivité dans l’information n’existe pas, et n’a jamais existé. C’est à nous, lecteurs, de lire entre les lignes pour y découvrir une vraisemblance de vérité. 
+Maintenant que vous êtes intrigué.e.s face à cette phrase complètement dénuée de sens, laissez-moi vous raconter comment tout a commencé.
+
+CHAPITRE 1
+
+Chronologiquement parlant, tout a commencé vers le début du mois de janvier 2020, avec une annonce pour le moins énigmatique&#8239;: un diaporama, des peintures classiques qui défilent et enfin un acronyme T.F.A&#8239;: Travail de Fin d’Année. Ce dernier représenterait presque l’intégralité du second quadrimestre (à l’exception du court interlude composée du TPAP et d’un autre atelier qui, lui aussi, a son Case Study qui lui est entièrement consacré). 
+
+Il fallait donc que ce travail représente quelque chose d’intéressant, de bien réfléchi et bien travaillé, car il s’agissait là de notre bagage vers l’avenir. C’est la raison pour laquelle, dès le début du projet, mon état d’esprit pouvait se décrire par une seule et unique phrase, chantée par Gloria Gaynor&#8239;: “at first I was afraid, I was petrified!”
+
+C’est toutefois dans la désorientation totale que je vais réunir une dizaine d’idées que je considérais comme pertinentes, dont deux se dégageront&#8239;: « la sensibilisation à la subjectivité de l’information » et la « démonstration des mouvements écoresponsables ». J’optai pour le premier thème et commençai à réfléchir à la manière d’aborder le sujet&#8239;: fallait-il combattre la subjectivité de plein front pour tenter de rendre le monde plus objectif&#8239;? Fallait-il dénoncer la subjectivité et la dramatisation orchestrée par les médias, ou encore tenter de construire une idée idyllique de l’objectivité&#8239;?
+
+CHAPITRE 2
+
+Je vais, dès lors organiser différentes User Researches afin de découvrir comment les gens considèrent l’information et la traitent. J’avais déjà pré-envisagé certaines personnes comme étant des candidats confirmés, notamment ma.on copain.ine ainsi que mon meilleur ami Pierre.
+
+Mais pour le reste, il fut très difficile de se coordonner&#8239;: tout d’abord, j’habite à plus d’une heure de trajet de Namur, ce qui limitait déjà considérablement le nombre de gens que je pouvais rencontrer (du moins dans la fourchette temporelle indiquée). Ensuite, les conditions météorologiques ainsi que les différents empêchements des personnes que je désirai interviewer dans ma région m’empêchèrent de poursuivre le déroulement des User Researches.
+Afin de résoudre ce problème, j’optai pour la discussion vocale via Internet, ce qui me permit d’obtenir des résultats et les rassembler afin d’en dégager mes Top Tasks et mes Tiny Tasks.
+
+J’organisa ensuite un formulaire (dont vous pouvez retrouver les questions ici → https&#8239;: //docs.google.com/forms/d/e/1FAIpQLSdKAwzUDBzGXrYSZYApzcGzh06s56kDe0P2Nesnw1zRI5XCsA/viewform&#8239;?usp=sf_link) afin de toucher un nombre plus important de personnes en un temps drastiquement moindre. Je le partageai sur Facebook, Slack, ainsi que certains groupes Discord et d’autres médias de communication ce qui assurerait un ensemble de réponses indépendantes et, idéalement, convergentes. C’est à mon grand étonnement que je découvri des réponses extrêmement variées et divergentes, qui allaient du support et du soutien dans le combat contre la dramatisation des médias et la subjectivité dans la transmission de l’information, jusqu’à l’inquiétude quant à l’utilité de construire un site d’actualités parmi tant d’autres qui se veut être le plus objectif.
+
+C’est là que j’obtins l’éclair de lucidité qui allait être fondamental à ma réflexion&#8239;: l’objectivité dans l’information n’existe pas, et tout le monde émet et reçoit l’information de manière fondamentalement subjective et individuelle. 
+Il fallait donc être extrêmement prudent avec la manière dont j’articulerai le sujet et le prendre avec de grosses pincettes&#8239;: je ne pouvais et ne devais donc pas être objectif moi-même, mais seulement démontrer que toute information était subjective et que l’information était facilement malléable pour convenir à un certain parti ou à une certaine philosophie (vous pouvez d’ailleurs retrouver davantage de réflexion en cliquant ici, bien que l’idée soit également rédigée noir sur blanc dans ce Case Study https&#8239;: //docs.google.com/document/d/1EyHjpCIgAjxdFAvtO0gAlllhY4jxLZLZhTBklVPbdow/edit&#8239;?usp=sharing).
+
+CHAPITRE 3
+
+Maintenant que le thème et le principe étaient confirmés, il me fallait connaître comment procéder. Dès le départ, j’avais une idée qui me semblait logique, qui était tout simplement de comparer la subjectivité à une vraisemblance d’objectivité. Mais cette idée ne faisait que déplacer le problème&#8239;: en quoi suis-je plus objectif qu’un journaliste&#8239;? Comment prouver l’objectivité et la subjectivité de ce projet&#8239;? qu’est-ce qui, selon mon point de vue, différencie l’un de l’autre&#8239;? 
+
+C’est grâce à un certain recul et aux avis de mes professeurs que je vais obtenir l’idée de mon projet&#8239;: il ne s’agissait pas de défendre ou de promouvoir l’idée utopique qu’est l’objectivité, ni même de vouloir en montrer un aperçu ( qui aurait de toutefaçon et malgré lui biaisé et subjectif), mais plutôt vouloir démontrer la subjectivité telle qu’elle est, c’est-à-dire biaisée, influente et influencée, en comparant plusieurs points de vue différents sur un sujet donné.
+Cette comparaison inclurait le ton, la voix et le style visuel (que l’on va nommer “prisme de subjectivité”) du média sur lequel ce point de vue s’exprime - en l'occurrence, une page web ou une application. 
+
+Il me fallait alors décider du thème sur lequel rédiger une série d’articles avec différents points de vue&#8239;: je pensais utiliser un thème qui soit d’actualité, mais suffisamment absent de la couverture médiatique pour que mes différents articles restent relativement pertinents selon leur contexte. 
+J’optai alors pour le thème de la 5G, qui s’avéra être un sujet idéal par la suite car son déploiement à travers le monde fut largement controversé et mena à diverses théories complotistes, parfois au sein même de notre pays.
+
+Ensuite débuta le processus d’écriture&#8239;: ce dernier fut assez intéressant car parmi les nombreux onglets d’ouverts que j’utilisais comme sources d’inspiration et d’information, on pouvait déjà déceler la couche sous-jacente de subjectivité qui poussait les auteurs dans un parti pris ou l’autre, notamment du côté pro-technologiste ou écologiste.
+Cette subjectivité se dégageait non seulement du ton de l’article, mais aussi des couleurs employées, des personnes interviewé.e.s, ainsi que les images ce dont je vais m’inspirer afin de rendre mes prototypes et mes textes les plus authentiques possible.
+
+
+CHAPITRE 4&#8239;: UN TEMPS DE RÉDACTION
+
+Une fois les points de vue sélectionnés, arriva le processus de rédaction, qui fut d’ailleurs assez intéressant car parmi les nombreux onglets d’ouverts que j’utilisais comme source d’inspiration et d’information, on pouvait d’ore et déjà déceler une couche sous-jacente de subjectivité qui poussait les auteurs dans un parti pris ou l’autre
+
+Tout le processus de rédaction fut assez intéressant car parmi les nombreux onglets d’ouverts que j’utilisais comme sources d’inspiration et d’information, on pouvait déjà déceler la couche sous-jacente de subjectivité qui poussait les auteurs dans un parti pris ou l’autre, notamment du côté pro-technologiste ou écologiste.
+Cette subjectivité se dégageait non seulement du ton de l’article, mais aussi des couleurs employées, des personnes interviewé.e.s, ainsi que les images.
+
+À vrai dire, tout le contexte actuel était idéal quant au sujet de mon TFA&#8239;: les médias diffusants tous en boucle la même information, il était amplement plus simple de déceler la subjectivité qui se cache derrière chaque article de journalisme ou chaque script de journal télévisé et comment elle influence le ressenti de l’audience ou des lecteurs.
+
+Pour en revenir à la rédaction, cette trinité qui se dégage des différents points de vue était assez intéressante car elle offrait tout un éventail complémentaire de ressentis différents sur les mêmes sujets abordés&#8239;: pour un même paragraphe, les trois thèmes contesteraient le même sujet et la défendraient ou l’attaqueraient en fonction du point de vue. Par exemple, concernant le lancement de satellites pour le déploiement de la 5G, le point de vue écolo serait contre car il s’agirait d’une pollution supplémentaire, le techno-solutionniste le promouvrait car il accélérerait la transmission d’information, et le complotiste aurait tenu des propos désillusoires sur “un nouveau moyen de nous contrôler”.
+
+Après avoir rédigé les textes, j’eus l’idée de les placer dans un tableau et de les décortiquer de leurs paragraphes et de leurs titres&#8239;: cela facilitait davantage la comparaison entre les différents paragraphes mais aussi cela me permit de plus facilement les synchroniser les uns aux autres. C’était, en outre, un excellent moyen de commencer la mise en page et le Markdown.
+
+CHAPITRE 5 
+
+Maintenant que les textes étaient ne nécessitaient plus autant d’attention (même si je retournerai de temps à autre les corriger et les améliorer pour davantage accentuer le ton et la voix employés), je pouvais me concentrer sur la fonctionnalité principale&#8239;: comment proposer un système de comparaison simple et efficace qui respecte au maximum les règles d’UX&#8239;?
+
+À l’origine, je pensais utiliser une petite barre qui me permettrait de passer d’un site à l’autre. Cette idée, qui serait non seulement plus compliquée à mettre en place que prévu (puisqu’il fallait non seulement changer le style mais aussi changer le contenu, ce qui allait être difficilement optimisable et agréable à voir), ne permettait pas de facilement comparer les textes les uns entre les autres.
+
+Je vais donc commencer à faire des prototypes papiers que je ferais tester à maon copain.ine de ma seconde idée&#8239;: avoir une sorte de zone autour de la souris qui permettrait de révéler le texte d’une autre version (à l’instar d’un spot de lumière au théâtre).
+
+Le premier test utilisateur fut très concluant&#8239;: selon maon copain.ine, les interactions sont claires et concises à partir du moment où l’on sait à quoi sert la page. Les boutons permettant l’interaction appellent au regard à se concentrer sur eux, ce qui permet aux personnes débarquant sur la page à directement essayer de les utiliser et à découvrir leur utilité.
+
+Avec le contenu écrit en Markdown et certaines expérimentations UX réalisées, il était temps de s’occuper du style. Je m’occupai premièrement du style pro-technologique (plus tard appelé techno-solutionnisme comme l’a suggéré M. Bourgaux) car j’avais déjà de brèves idées et quelques inspirations.
+
+Tout d’abord, les fontes&#8239;: je recherchais une combinaisons de fontes sans-serif avec un contraste conséquent entre les deux, car je considérai que le serif appartenait plutôt au monde du papier et de l’écriture (censé contraster avec les nouvelles technologies). Je me mis à faire des tests de taille de x, avec certaines fontes sélectionnées&#8239;: Je testai notamment l'ensemble Raleway/Spartan, ou encore DinPro/Assistant, mais j’optai finalement, pour la combinaison Overpass/IBM Plex Sans & Mono, car non seulement étaient-elles gratuites (ce qui était primordial pour assurer la postérité et la pertinence du projet, selon moi) , mais aussi car elles évoquaient, par leur histoire et par leur aspect visuel, le monde de la technologie&#8239;: des fontes sans-serifs & monospaces, qui se mariaient convenablement ensemble grâce à leur large panoplie de graisses. Cela contrastait parfaitement avec la seconde version du site, la version écologique, pour laquelle je comptais utiliser des fontes serifs, qui rappellent le monde organique, mais j’y reviendrai ultérieurement.
+
+Ensuit vinrent les couleurs&#8239;: j’allais, bien évidemment, avoir recours à un simple éventail de bleus variant en saturation et en luminosité, associé à un jaune complémentaire dit auréolin (j’ai dû faire des recherches pour pouvoir le décrire et je trouve ça fascinant).
+
+Je suis allé jusqu’à concevoir mes propres petites icônes, inspirées de celles que propose le site feathericons.com. Je voulais vraiment avoir un style visuel carré, géométrique ou angulaire, à l’instar du mouvement architectural moderne brutaliste de la seconde moitité du XXe siècle. Je vais donc reprendre toutes les petites icônes nécessaires et les remodéliser en retirant le plus de courbes et de cercles possibles, tout en conservant bien sûr les bases visuelles de ces logos, pour ne pas que le lecteur soit perdu sur le site. 
+
+Je réaliserai plusieurs versions de ce prototype, drastiquement différentes les unes entre les autres, mais qui démontrent une évolution dans la démarche de réflexion ainsi que dans la manière de s’approprier un style donné. Cela se voit notamment au niveau de la barre de navigation, par exemple&#8239;: là où la première était très simple et presque entièrement démunie d’identité visuelle, la seconde, quant à elle, sera nettement plus travaillée, non seulement dans son style visuel, mais aussi dans son contenu&#8239;: afin d’avoir une seconde version plus “réaliste”, je fis un inventaire de contenu d’un ensemble de sites d’articles, comme le conseilla M. Marchal. Cela me permit de récupérer toutes les petites choses qu’il me manquait pour compléter (et recommencer le site), mais aussi cela me fit rendre compte que cet aspect de vraisemblance que je n’avais pas encore réussi à créer venait en réalité de tout ce que j’avais oublié d’ajouter, c’est-à-dire les petits boutons, les petites icônes, etc.
+
+J’en conclus donc que le contenu d’un site n’était pas suffisant pour en faire un site “correct”&#8239;: oui il fonctionnera et tout le monde sera capable de lire l’article, mais cet aspect de vraisemblance vient de toutes ces petites interactions, tous ces petits boutons qui renforcent le lien entre le site et l’internaute.
+
+CHAPITRE 6&#8239;: 
+
+Je réalisai ensuite les autres prototypes pour chaque thématique dans les jours qui suivaient. Ils avaient chacun leur propre grille, leurs propres fontes et leur propre style visuel. J’allai jusqu’à reconfectionner mes petites icônes pour qu’elles correspondent à l’identité visuelle de la page&#8239;: par exemple, le style complotiste serait un peu plus pixelisé et 8-bit, et donc les icônes seraient également à l’apparence de pixels, comme le présente la photo ci-jointe. 
+
+Certains problèmes surgirent, comme notamment l’impossibilité de trouver une combinaison de fontes répondant aux critères du test de X pour la version complotiste, auquel je décidai de simplement me baser sur le jeu de contraste et l’aspect visuel de la combinaison (avec l’accord de M. Bourgaux, bien sûr et la confirmation ultérieure de M. Marchal), ou encore un autre problème, bien plus important, qui viendra à me déstabiliser&#8239;: comment serait-il possible de pouvoir comparer les sites les uns entres les autres s’ils sont agencés d’une manière fondamentalement différente&#8239;? Fallait-il alors, qu’ils possèdent la même grille et la même mise en page&#8239;?
+
+Après réflexion et expérimentation, j’en conviens qu’il fallait que mes grilles soient différentes, pour plusieurs raisons&#8239;: 
+tout d’abord, le contenu n’était tout simplement pas adaptable pour avoir exactement la même grille et le même espacement (le site techno-solutionniste devenait bien trop espacé avec la grille de l’écologiste) et il était donc impossible d’obtenir une grille identique pour trois sites ayant un contenu similaire, mais différent (j’ai tant bien que mal tenté de faire correspondre la longueur de mes paragraphes, mais se rajoutait à cette première difficulté une différence drastique entre les différentes fontes, quand bien mêmes avaient-elles la même taille).
+
+Ensuite, la différence de cette grille offrait aux sites une chance d’être uniques et de briser la ressemblance déjà perceptible entre ceux-ci. Qui plus est, cette grille variait toujours autour des mêmes valeurs, donc il ne s’agissait pas d’un dépaysement total non plus.
+
+Et enfin, je pense que cette différence de grille fasse partie de l’expérience&#8239;: les éléments seraient plus ou moins à la même place si pas de l’autre côté de l’écran, il suffisait de rechercher dans les alentours pour les retrouver.
+
+Malgré la différence des grilles, Je vais toutefois tenter de synchroniser le plus de choses possible, comme le footer, la barre de navigation, ou autres petits éléments.
+
+Je viendrai ensuite réaliser les prototypes mobiles des trois styles, et c’est en testant sur mon téléphone, à chaque sauvegarde, que je découvris plusieurs problèmes auxquels je n’avais pas dû faire face lors du “prototypage” desktop.
+Hormis le changement de rapport hiérarchique et les légers changements dans la structure verticale, j’avais pour la première fois de ma vie affaire à un problème auquel je n’aurai jamais pensé avoir à me méfier&#8239;: trop de contraste. 
+
+Prenons l’exemple du dernier site, qui, comme vous pouvez le voir, présente un fond noir et un un texte blanc, pour 90% de son contenu. Pour les petites citations cependant, j’inverse les couleurs et rajoute une teinte de rouge. Les paragraphes et les citations venant l’un à la suite de l’autre sur mobile, cette transition immédiate et drastique de contraste me brûlait littéralement la rétine (j’insiste, littéralement). Ma première réaction fut de diminuer la luminosité de mon écran, mais là était mon erreur&#8239;: ce n’était pas à l’utilisateur à s’adapter au site, mais l’inverse. Je retournai donc sur Illustrator pour diminuer manuellement la luminosité à un stade où le texte était toujours facilement lisible sans pour autant endommager le cerveau du lecteur. 
+Ce détail, qui, en soi, peut paraître minime, m’a appris une leçon de grande valeur que je ne suis pas prêt d’oublier&#8239;: Il faut toujours adapter le site, l’application, en général la plateforme pour qu’elle soit agréable au plus de personne possible, au détriment du style visuel ou du contenu même. Ce n’est, en aucun cas et sous aucune circonstance, à l’utilisateur à s’adapter au site. 
+
+Les semaines passèrent et je me retrouvai enfin face à ce module d’animation sur lequel j’attendais de pouvoir travailler. J’avais mis à bien mon temps afin d’avoir une semaine entière pour travailler dessus (ce qui est large, mais nécessaire afin de faire les choses convenablement) et j’avais déjà fait accepter auprès de M. Tournay un storyboard, qui viendrai à changer par la suite (c’est d’ailleurs la version finale que vous pouvez voir ci-jointe) mais qui représentait déjà les idées fondamentales de l’animation. J’avais déjà préparé toutes les images nécessaires à la réalisation du module, il ne restait donc plus qu’à exécuter After Effects. 
+
+Et c’est avec plaisir que je travaillai sur le programme, à animer mes prototypes au travers des connaissances acquises au début de l’année. C’était une expérience beaucoup plus agréable, selon moi, de donner vie à mes prototypes et de les voir se déplacer tout seuls, plutôt que de passer des journées entières à les réaliser, parfois au pixel près, alors que j’ai beaucoup plus d’expérience sur Illustrator — j’avais ultérieurement et volontairement décidé d’utiliser Illustrator en sachant pertinemment qu’il existait, à l’heure actuelle, de nombreux logiciels uniquement dédiés à la constructions de maquettes pour le web, tout simplement pour accélérer et simplifier le workflow entre Illustrator, After Effects et, plus tard, Premiere Pro — que sur After Effects. La semaine que j’avais préalablement consacrée pour travailler sur l’animation se résuma à 3 jours de pur bonheur, de découvertes et de redécouvertes pour, in fine, se conclure en une animation dont je suis très fier. J’irai jusqu’à y réaliser et rajouter mes propres petits bruitages afin de permettre de plus facilement comprendre les mouvements effectués, comme par exemple un clic ( et de toute façon, il est toujours plus agréable de regarder une vidéo avec du son qu’une vidéo vide, surtout pour une présentation).
+
+CHAPITRE 7
+
+
+Il restait près de deux semaines avant la remise finale, et plusieurs choses à réaliser (hormis l’écriture de ce Case Study bien sûr)&#8239;: l’intégration de la page de présentation, l’intégration du Case Study et les slides de présentation. J’avais déjà préparé les images ainsi que la couleur de paragraphe pour le Case Study et, par extension, pour la préparation et pour les slides, mais pas encore le style visuel. Je savais en tout cas que je voulais qu’il soit très épuré, très neutre, mais qu’il reste pour autant professionnel. 
+
+En quelques jours, je parviendrai à tout rassembler, c’est-à-dire une landing page, une page pour les prototypes, une autre pour les modules, une pour la vidéo, et enfin,  une pour ce Case Study. j’étais assez satisfait du style visuel de ce que j’avais produit&#8239;: la sobriété et le minimaliste permettent de mettre en avant les différents prototypes et différentes images sans qu’elles sortent de l’harmonie visuelle.
+
+J’avais passé beaucoup plus de temps qu’auparavant à prévoir toutes sortes de petites interactions, qu’il s’agisse de petites animations ou de simples petits détails, je pense que ça rend le site beaucoup plus facile et agréable à naviguer et ça rend l’ensemble beaucoup plus complet et professionnel, comme je l’avais souhaité.
+
+Je pensais avoir plus ou moins terminé l’écriture du code, et qu’il ne me restait plus qu’à réaliser le diaporama, quand un terrible drame vint changer le cours de mon weekend. 
+
+CHAPITRE 9 
+
+Dans la plus totale inadvertance, je me rendis compte que j’avais commis une erreur fatale, qui pouvait me coûter l’année&#8239;: l’interlignage sur les titres au sein des différents prototypes n’était pas suffisant et il manquait les espaces insécables et autres éléments de microtypographie. Il fallait alors tout recommencer&#8239;: ouvrir Illustrator, Photoshop, After Effects, Premiere Pro et l’éditeur de code, et tout corriger, tout adapter, pour que tout soit correct.  
+
+Ce terrible événement, complètement inattendu et inespéré, me fit me rendre compte d’une chose au moins&#8239;: j’étais beaucoup plus rapide qu’auparavant pour corriger et optimiser mes erreurs. Là où il m’a fallu une semaine pour réaliser les différents prototypes, il m’en aura fallu une journée pour tous les corriger, les réexporter, refaire un rendu vidéo et les réintégrer dans le code. Cela me permit également de vérifier que tous les paramètres de microtypographie étaient présents et que le travail était convenablement fait, chose que je n’avais pas pris le temps de faire auparavant.
+
+CHAPITRE FINAL
+
+Voilà, ça y est. Tout a été corrigé, tous les critères sont, selon moi, présents et corrects. C’est ainsi donc que se termine ce travail de fin d’année, qui m’aura appris beaucoup plus que je ne le puisse espérer, que ce soit dans ma façon d’acquérir l’information, ou bien même de travailler.
+
+Je tiens, sur ces derniers mots,  à remercier tous les membres du corps enseignant pour leur travail durant ces étranges temps, ainsi que pour leur écoute, mais aussi pour leur passion qu’ils parviennent tant à partager.
