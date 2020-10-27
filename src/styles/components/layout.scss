@@ -7,7 +7,6 @@ body{
     padding: 0;
 }
 
-
 .subtitle{
     display: block;
 }
@@ -16,17 +15,9 @@ small{
     display: block;
 }
 
-// .overlay{
-    // background-image: url(../../assets/images/texture.jpg);
-    // background-blend-mode: luminosity;
-    // z-index: 1;
-// }
-
 p{
     margin: 0 0 $s-mob--small;
 }
-
-
 
 .title{
     margin: 0;
@@ -58,8 +49,6 @@ p{
     }
 }
 
-
-
 .list{
     margin: 0 0 0 $s-mob--small;
     
@@ -67,7 +56,6 @@ p{
         margin-bottom: $s-mob--medium;
     }
 }
-
 
 .section {
     padding: 0 $s-mob--big;
@@ -98,12 +86,10 @@ p{
     &--footer{
         .title--small{
             padding: $s-mob--medium 0 $s-mob--smaller $s-mob--small;
-
         }
 
         .list{
             margin-left: $s-mob--small*2;
-
 
             .list__el{
                 .subtitle{
@@ -136,8 +122,6 @@ p{
 
                 display: flex;
                 justify-content: center;
-                // margin-left: auto;
-                // margin-right: auto;
                 border-top: 1px solid $c-white;
                 padding: $s-mob--big 0;
                 margin: $s-mob--bigger auto $s-mob--small;
@@ -150,14 +134,10 @@ p{
                     max-width: $s-mob--medium;
                     max-height: $s-mob--medium;   
                 }
-
-            
             }
-        }
-        
+        }  
     }
 }
-
 
 a{
     svg{
