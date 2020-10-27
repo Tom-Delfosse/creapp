@@ -1,4 +1,139 @@
 body{
+    font-family: 'Zilla Slab', serif;
+    line-height: 160%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.title{
     font-family: 'Work Sans', sans-serif;
-font-family: 'Zilla Slab', serif;
+    
+    &--bigger{
+        font-size: $s-mob--big;
+        text-transform: uppercase;
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--mediumer;
+        }
+    }
+
+    &--big{
+        font-size: $s-mob--small;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 100;
+
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--small;
+
+        }
+
+    }
+
+    &--medium{
+        font-size: $s-mob--medium;
+        font-weight: 100;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--mediumer;
+        }
+    }
+
+    &--small{
+        font-family: 'Zilla Slab', serif;
+        font-size: $s-mob--small;
+
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--bigger;
+        }
+
+    }
+
+    &--smaller{
+        font-size: $s-mob--big;
+        font-variant: small-caps;
+        font-weight: 700;
+
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--big;
+        }
+    }
+
+    &--smallest{
+        font-size: $s-mob--small;        
+        font-family: 'Zilla Slab', serif;
+        font-weight: 700;
+
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--mediumer;
+        }
+    }
+
+    
+}
+
+.subtitle{
+    // display: block;
+    font-weight: 300;
+}
+
+p{
+    font-size: $s-mob--small;
+    font-weight: 400;
+
+    line-height: 160%;
+    @include tb{}
+    @include lg{
+        font-size: $s-desk--medium;
+    }
+
+}
+
+
+.section{   
+    &--more{
+        .list{
+            .list__el::before{
+                content: "–\00A0";
+                display: inline-block;
+            }
+        }
+    }
+
+    &--footer{
+        .title--small{
+            font-family: 'Work Sans', sans-serif;
+            font-variant: small-caps;
+        }
+
+        .list{
+            .list__el{
+                font-family: 'Work Sans', sans-serif;     
+                
+                .subtitle{
+                    font-family: 'Zilla Slab', serif;
+                }
+            }
+        }
+    }
+}
+
+
+small{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;   
+    font-size: $s-mob--smallest;  
+
+    @include tb{}
+    @include lg{
+        font-size: $s-desk--smaller;
+    }
 }

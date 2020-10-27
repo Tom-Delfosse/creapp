@@ -1,0 +1,71 @@
+body{
+    background-color: $c-sand;
+}
+
+
+.title{
+    color: $c-black;
+}
+
+p{
+    color: $c-black;
+}
+
+
+a{
+    color: inherit;
+}
+
+
+
+.section{
+
+    &--what{
+        background-color: $c-red--medium;
+
+        .title, p{
+            color: $c-white;
+        }
+
+    }
+
+    &--lifestyle{
+        background-color: $c-blue--medium;
+        
+        
+        .title, p{
+            color: $c-white;
+        }
+    }
+
+    &--more{
+        background-color: $c-blue--bright;
+
+        
+        .title, p{
+            color: $c-white;
+        }
+    }
+    &--more{
+
+
+        .title, p, .list, a{
+            color: $c-white;
+        }
+
+
+        a{
+            color: $c-white;
+            background-color: $c-red--medium;
+        }
+    }
+
+    &--footer{
+        background-color: $c-black;
+        
+        .title, p, .list, small{
+            color: $c-white;
+        }
+    }
+}
+
