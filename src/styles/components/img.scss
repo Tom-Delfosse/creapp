@@ -1,3 +1,10 @@
 .img{
     width: 100%;
+    margin: 0;
+
+    &--big{
+        width: calc(100% + 1.728em*2);
+        margin-left: -$s-mob--big;
+        // faudra changer la valeur à chaque fois
+    }
 }
