@@ -47,6 +47,11 @@ a{
     &--small{
         font-family: 'Zilla Slab', serif;
         font-size: $s-mob--small;
+        line-height: 180%;
+
+        .subtitle{
+            font-size: $s-mob--smallest;
+        }
 
         @include tb{}
         @include lg{
@@ -69,45 +74,32 @@ a{
     &--smallest{
         font-size: $s-mob--small;        
         font-family: 'Zilla Slab', serif;
-        font-weight: 700;
+        font-weight: 600;
 
         @include tb{}
         @include lg{
             font-size: $s-desk--mediumer;
         }
     }
-
-    
 }
 
 .subtitle{
-    // display: block;
     font-weight: 300;
 }
 
 p{
     font-size: $s-mob--small;
-    font-weight: 400;
+    font-weight: 300;
 
     line-height: 160%;
     @include tb{}
     @include lg{
         font-size: $s-desk--medium;
     }
-
 }
 
 
 .section{   
-    &--more{
-        .list{
-            .list__el::before{
-                content: "–\00A0";
-                display: inline-block;
-            }
-        }
-    }
-
     &--footer{
         .title--small{
             font-family: 'Work Sans', sans-serif;
@@ -116,13 +108,40 @@ p{
 
         .list{
             .list__el{
-                font-family: 'Work Sans', sans-serif;     
+                font-family: 'Work Sans', sans-serif;   
                 
                 .subtitle{
                     font-family: 'Zilla Slab', serif;
                 }
             }
         }
+    }
+}
+
+
+.cta{
+    font-weight: 400;
+
+    .list{
+        font-weight: 600;
+        font-size: $s-mob--small;        
+        @include tb{}
+        @include lg{
+            font-size: $s-desk--medium;
+        }
+
+        .list__el::before{
+            content: "–\00A0";
+            display: inline-block;
+        }
+    }
+
+    a{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: $s-mob--big;
     }
 }
 

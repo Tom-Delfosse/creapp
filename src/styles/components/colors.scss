@@ -19,9 +19,11 @@ a{
 
 
 .section{
-
+    
     &--what{
         background-color: $c-red--medium;
+        background-clip: padding-box;
+
 
         .title, p{
             color: $c-white;
@@ -31,32 +33,11 @@ a{
 
     &--lifestyle{
         background-color: $c-blue--medium;
+        background-clip: padding-box;
         
         
         .title, p{
             color: $c-white;
-        }
-    }
-
-    &--more{
-        background-color: $c-blue--bright;
-
-        
-        .title, p{
-            color: $c-white;
-        }
-    }
-    &--more{
-
-
-        .title, p, .list, a{
-            color: $c-white;
-        }
-
-
-        a{
-            color: $c-white;
-            background-color: $c-red--medium;
         }
     }
 
@@ -69,3 +50,46 @@ a{
     }
 }
 
+.cta{
+    background-color: $c-blue--bright;
+    background-clip: padding-box;
+
+    .title, p, .list{
+        color: $c-white;
+    }
+
+    a{
+        color: $c-white;
+        background-color: $c-red--medium;
+    }
+}
+
+svg{
+
+    .circle{
+        fill: none;
+        stroke: $c-black;
+        stroke-width: 5px;
+    
+        &--white{
+            stroke: $c-white;
+        }
+    }
+
+    .ear{
+        fill: $c-black;
+        
+        &--white{
+            fill: $c-white;
+        }
+    }
+
+
+    .body{
+        fill: $c-black;
+        
+        &--white{
+            fill: $c-white;
+        }
+    }
+}

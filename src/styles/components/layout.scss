@@ -15,3 +15,154 @@ body{
 small{
     display: block;
 }
+
+// .overlay{
+    // background-image: url(../../assets/images/texture.jpg);
+    // background-blend-mode: luminosity;
+    // z-index: 1;
+// }
+
+p{
+    margin: 0 0 $s-mob--small;
+}
+
+
+
+.title{
+    margin: 0;
+
+    &--bigger{
+        margin-left: $s-mob--smaller;
+        flex-grow: 0;
+    }
+
+    &--big{
+        margin-top: $s-mob--big;
+    }
+
+    &--medium{
+        padding: 0 0 0 ;
+    }
+
+    &--small{
+        padding: $s-mob--smaller 0;
+
+    }
+
+    &--smaller{
+        padding: $s-mob--bigger/2 0 $s-mob--small/2;
+    }
+
+    &--smallest{
+        padding: 0 0 $s-mob--smaller;
+    }
+}
+
+.section {
+    padding: 0 $s-mob--bigger;
+
+    &--what, &--lifestyle, &--footer{
+        padding: $s-mob--bigger $s-mob--big;
+    }
+
+    &--main{
+        padding: inherit;
+        margin:  $s-mob--bigger 0 0;
+    }
+
+    &--header{
+        margin-top: $s-mob--bigger;
+
+        a{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            svg{
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    &--footer{
+        .title{
+            margin-left: $s-mob--small;
+            // display: none;
+        }
+
+        .list{
+            margin-left: $s-mob--small*2;
+
+
+            .list__el{
+                .subtitle{
+                    margin: $s-mob--smaller/4 $s-mob--small 0;
+                }
+            }
+        }
+    }
+}
+
+.list{
+    margin-left: $s-mob--small;
+    
+    .list__el{
+        margin-bottom: $s-mob--medium;
+    }
+
+    &--contact{
+        text-indent: -$s-mob--small*2;
+        .list__el::before{
+            content: " ";
+            width: $s-mob--small;
+            height: $s-mob--small;
+            margin-right: $s-mob--smallest;
+            background-image: url(../../assets/images/smartphone--white.svg);
+            display: inline-block;
+            background-size: contain;
+            vertical-align: bottom;  
+
+
+        }
+
+        .list__el:nth-child(2)::before{
+            background-image: url(../../assets/images/mail--white.svg);
+
+        }
+    }
+}
+
+
+a{
+    svg{
+        width: $s-mob--big*2;
+        height: $s-mob--big*2;
+    }
+}
+
+.footer-logo{
+    display: flex;
+    align-items: flex-start;
+
+    svg{
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    p{
+        margin-left: $s-mob--smaller;
+    }
+}
+
+.cta{
+    padding: $s-mob--bigger $s-mob--big;
+
+    p{
+        margin-left: $s-mob--small;
+    }
+
+    a{
+        display: block;
+        padding: $s-mob--smaller 0;
+    }
+}
