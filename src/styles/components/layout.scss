@@ -41,11 +41,11 @@ p{
     }
 
     &--medium{
-        padding: 0 0 0 ;
+        padding: 0 0 $s-mob--small ;
     }
 
     &--small{
-        padding: $s-mob--smaller 0;
+        padding: 0 0 $s-mob--smaller ;
 
     }
 
@@ -54,12 +54,23 @@ p{
     }
 
     &--smallest{
-        padding: 0 0 $s-mob--smaller;
+        padding: $s-mob--small 0 $s-mob--smaller;
     }
 }
 
+
+
+.list{
+    margin: 0 0 0 $s-mob--small;
+    
+    .list__el{
+        margin-bottom: $s-mob--medium;
+    }
+}
+
+
 .section {
-    padding: 0 $s-mob--bigger;
+    padding: 0 $s-mob--big;
 
     &--what, &--lifestyle, &--footer{
         padding: $s-mob--bigger $s-mob--big;
@@ -85,9 +96,9 @@ p{
     }
 
     &--footer{
-        .title{
-            margin-left: $s-mob--small;
-            // display: none;
+        .title--small{
+            padding: $s-mob--medium 0 $s-mob--smaller $s-mob--small;
+
         }
 
         .list{
@@ -99,36 +110,51 @@ p{
                     margin: $s-mob--smaller/4 $s-mob--small 0;
                 }
             }
+
+            &--contact{
+                text-indent: -$s-mob--small;
+                margin-left: $s-mob--small*3;
+
+                .list__el::before{
+                    content: " ";
+                    width: $s-mob--small;
+                    height: $s-mob--small;
+                    position: relative;
+                    left: -$s-mob--small;
+                    background-image: url(../../assets/images/smartphone--white.svg);
+                    display: inline-block;
+                    background-size: contain;
+                    vertical-align: text-bottom;  
+                }
+        
+                .list__el:nth-child(2)::before{
+                    background-image: url(../../assets/images/mail--white.svg);
+                }
+            }
+        
+            &--social{
+
+                display: flex;
+                justify-content: center;
+                // margin-left: auto;
+                // margin-right: auto;
+                border-top: 1px solid $c-white;
+                padding: $s-mob--big 0;
+                margin: $s-mob--bigger auto $s-mob--small;
+            
+                .list__el{
+                    margin: 0 5%;
+                }
+
+                .img{
+                    max-width: $s-mob--medium;
+                    max-height: $s-mob--medium;   
+                }
+
+            
+            }
         }
-    }
-}
-
-.list{
-    margin-left: $s-mob--small;
-    
-    .list__el{
-        margin-bottom: $s-mob--medium;
-    }
-
-    &--contact{
-        text-indent: -$s-mob--small*2;
-        .list__el::before{
-            content: " ";
-            width: $s-mob--small;
-            height: $s-mob--small;
-            margin-right: $s-mob--smallest;
-            background-image: url(../../assets/images/smartphone--white.svg);
-            display: inline-block;
-            background-size: contain;
-            vertical-align: bottom;  
-
-
-        }
-
-        .list__el:nth-child(2)::before{
-            background-image: url(../../assets/images/mail--white.svg);
-
-        }
+        
     }
 }
 
@@ -166,3 +192,4 @@ a{
         padding: $s-mob--smaller 0;
     }
 }
+
