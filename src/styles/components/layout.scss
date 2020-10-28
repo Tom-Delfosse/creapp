@@ -17,13 +17,15 @@ small{
 
 p{
     margin: 0 0 $s-mob--small;
+    max-width: 550px;
+
 }
 
 .title{
     margin: 0;
 
     &--bigger{
-        margin-left: $s-mob--smaller;
+        margin-left: $s-mob--smallest/2;
         flex-grow: 0;
     }
 
@@ -69,16 +71,43 @@ p{
         margin:  $s-mob--bigger 0 0;
     }
 
+    &--lifestyle{
+        padding-top: 0;
+    }
+
     &--header{
         margin-top: $s-mob--bigger;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include tb{
+            width: 80%;
+            padding-left: $s-tab--bigger;
+            box-sizing: border-box;
+        }
 
         a{
             display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
             svg{
                 flex-grow: 0;
                 flex-shrink: 0;
             }
         }
+    }
+
+    &--what{
+        margin-left: auto;
+        margin-right: auto ;
+
+        @include tb{
+            width: 80%;
+            padding: $s-tab--bigger $s-tab--bigger*2;
+            box-sizing: border-box;
+        }
+
     }
 
     &--footer{
@@ -121,11 +150,17 @@ p{
                 display: flex;
                 justify-content: center;
                 border-top: 1px solid $c-white;
-                padding: $s-mob--big 0;
+                padding: $s-mob--small 0 0;
                 margin: $s-mob--bigger auto $s-mob--small;
             
                 .list__el{
                     margin: 0 5%;
+                    transition: 300ms;
+                    animation-timing-function: cubic-bezier(0.2, 0.68, 0.45, 1);
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
                 }
 
                 .img{
@@ -177,6 +212,11 @@ a{
 
 .cta{
     padding: $s-mob--bigger $s-mob--big;
+    margin: $s-mob--big auto $s-mob--bigger;
+
+    @include tb{
+        max-width: 550px;
+    }
 
     p{
         margin-left: $s-mob--small;
