@@ -27,6 +27,7 @@ p{
 
 .title{
     margin: 0;
+    max-width: 550px;
 
     &--bigger{
         margin-left: $s-mob--smallest/2;
@@ -156,27 +157,6 @@ p{
         }
     }
 
-    &--lifestyle{
-        padding-top: 0;
-        // padding: 0 20% $s-tab--bigger;
-        box-sizing: border-box;
-   
-        @include tb{
-            padding: $s-tab--bigger;
-        }
-        @include lg{
-            padding: $s-desk--bigger;
-        }
-
-    }
-
-    &--lifecycle{
-        padding-top: 0;
-        margin-left: auto;
-        max-width: 550px;
-        margin-right: auto;
-    }
-
     &--header{
         margin-top: $s-mob--bigger;
         margin-left: auto;
@@ -189,6 +169,7 @@ p{
         }
 
         @include lg{
+            width: 60%;
             padding-left: $s-desk--bigger;
         }
 
@@ -204,6 +185,29 @@ p{
         }
     }
 
+    &--lifestyle{
+        padding-top: 0;
+        box-sizing: border-box;
+   
+        @include tb{
+            padding:0 10%;
+        }
+        @include lg{
+            padding: 0 20%;
+            
+            .lifestyle-content{
+                padding-left: $s-desk--bigger*3;
+            }
+        }
+    }
+
+    &--lifecycle{
+        padding-top: 0;
+        margin-left: auto;
+        max-width: 550px;
+        margin-right: auto;
+    }
+
     &--what{
         margin-left: auto;
         margin-right: auto ;
@@ -211,12 +215,13 @@ p{
 
         @include tb{
             width: 80%;
-            padding: $s-tab--bigger;
+            padding: $s-desk--bigger $s-tab--bigger;
             box-sizing: border-box;
         }
 
         @include lg{
-            padding: $s-desk--bigger;
+            width: 60%;
+            padding: $s-desk--bigger $s-desk--bigger*3;
         }
 
         .img--big{
@@ -226,27 +231,54 @@ p{
     }
 
     &--footer{
+        @include tb{
+            padding-left: 10%;
+            padding-right: 10%;
+        };
+
+        @include lg{
+            padding-left: 20%;
+            padding-right: 20%;
+
+        }
         .title--small{
             padding: $s-mob--medium 0 $s-mob--smaller $s-mob--small;
 
-            
             @include tb{
-                padding: $s-tab--medium 0 $s-tab--smaller $s-tab--small;
+                padding: $s-tab--medium 0 $s-tab--smaller ;
             }
             @include lg{
-                padding: $s-desk--medium 0 $s-desk--smaller $s-desk--small;
+                padding: $s-desk--medium 0 $s-desk--smaller ;
             }
         }
 
+        .footer-lists{
+            
+            @include tb{       
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: space-between;
+                
+                .list-container{
+                    width: 50%;
+                    
+                    &--social{
+                        width: 100%;
+                    }
+                }
+            }
+        }
         .list{
             margin-left: $s-mob--small*2;
-
-                
+   
             @include tb{
-                margin-left: $s-tab--small*2;
+                margin-left: $s-tab--small;
             }
             @include lg{
-                margin-left: $s-desk--small*2;
+                margin-left: $s-desk--small;
             }
 
             .list__el{
@@ -270,7 +302,7 @@ p{
                 }
                 @include lg{
                     text-indent: -$s-desk--small;
-                    margin-left: -$s-desk--small*3;
+                    margin-left: $s-desk--small*3;
                 }
 
                 .list__el::before{
@@ -301,9 +333,9 @@ p{
             }
         
             &--social{
-
                 display: flex;
                 justify-content: center;
+                max-width: 250px;
                 border-top: 1px solid $c-white;
                 padding: $s-mob--small 0 0;
                 margin: $s-mob--bigger auto $s-mob--small;
@@ -321,6 +353,10 @@ p{
                     margin: 0 5%;
                     transition: 300ms;
                     animation-timing-function: cubic-bezier(0.2, 0.68, 0.45, 1);
+
+                    @include tb{
+                        margin: 0 10%;
+                    }
 
                     &:hover{
                         transform: scale(1.2);
@@ -351,12 +387,12 @@ a{
         height: $s-mob--big*2;
         
         @include tb{
-            width: $s-tab--big;
-            height: $s-tab--big;
+            width: $s-tab--big*2;
+            height: $s-tab--big*2;
         }
         @include lg{
-            width: $s-desk--big;
-            height: $s-desk--big;
+            width: $s-desk--big*2;
+            height: $s-desk--big*2;
         }
 
         .ear{
@@ -436,7 +472,7 @@ a{
 
         &:hover{
             color: $c-black;
-            box-shadow: inset 0 100px 0 0 $c-yellow--dark;
+            box-shadow: inset 0 120px 0 0 $c-yellow--dark;
         }
     }
 }
@@ -475,6 +511,12 @@ a{
             // width: calc(115% + 4.624em*2);
 
             // margin-left: -15%;
+        }
+
+        @include lg{
+            width: calc(100% + 3.052em*3);
+
+            margin-left: -$s-desk--bigger*3;
         }
     }
 }

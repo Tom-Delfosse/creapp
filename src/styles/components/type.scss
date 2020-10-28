@@ -56,7 +56,7 @@ a{
 
     &--small{
         font-family: 'Zilla Slab', serif;
-        font-size: $s-mob--small;
+        font-size: $s-mob--big;
         line-height: 160%;
 
         .subtitle{
@@ -137,10 +137,27 @@ p{
 
         .list{
             .list__el{
-                font-family: 'Work Sans', sans-serif;   
+                font-family: 'Work Sans', sans-serif;
+                font-size: $s-mob--small;   
+                @include tb{
+                    font-size: $s-tab--small;
+                }
+
+                @include lg{
+                     font-size: $s-desk--small;
+                }
                 
                 .subtitle{
                     font-family: 'Zilla Slab', serif;
+                    font-size: $s-mob--smaller;
+
+                    @include tb{
+                        font-size: $s-tab--smaller;
+                    }
+
+                    @include lg{
+                         font-size: $s-desk--smaller;
+                    }
                 }
             }
         }
