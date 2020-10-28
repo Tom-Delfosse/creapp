@@ -57,16 +57,17 @@ a{
     &--small{
         font-family: 'Zilla Slab', serif;
         font-size: $s-mob--small;
-        line-height: 180%;
+        line-height: 160%;
 
         .subtitle{
             font-size: $s-mob--smallest;
+            line-height: 130%;
                 
             @include tb{
                 font-size: $s-tab--smallest;
             }
             @include lg{
-                font-size: $s-desk--smaller;
+                font-size: $s-desk--smaller/2;
             }
         }
 
@@ -74,7 +75,7 @@ a{
             font-size: $s-tab--mediumer;
         }
         @include lg{
-            font-size: $s-desk--bigger;
+            font-size: $s-desk--big;
         }
 
     }
@@ -84,7 +85,6 @@ a{
         font-variant: small-caps;
         font-weight: 700;
         line-height: 110%;
-
 
         @include tb{
             font-size: $s-tab--big;

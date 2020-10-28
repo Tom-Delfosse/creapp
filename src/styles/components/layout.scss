@@ -21,8 +21,8 @@ p{
 
     @include tb{
         max-width: 550px;
+        margin: 0 0 $s-tab--small;
     }
-
 }
 
 .title{
@@ -31,32 +31,85 @@ p{
     &--bigger{
         margin-left: $s-mob--smallest/2;
         flex-grow: 0;
+
+        @include tb{
+            margin-left: $s-tab--small/2;
+        }
+        @include lg{
+            margin-left: $s-desk--small;
+        }
     }
 
     &--big{
         margin-top: $s-mob--big;
+
+        
+        @include tb{
+            margin-top: $s-tab--small;
+        }
+        @include lg{
+            margin-top: $s-desk--small;
+        }
     }
 
     &--medium{
         padding: 0 0 $s-mob--small ;
+        
+        @include tb{
+            padding: 0 0 $s-tab--small;
+        }
+        @include lg{
+            padding: 0 0 $s-desk--small;
+        }
     }
 
     &--small{
         padding: 0 0 $s-mob--smaller ;
 
+        
+        @include tb{
+            padding: 0 0 $s-tab--smaller;
+        }
+        @include lg{
+            padding: 0 0 $s-desk--smaller;
+        }
+
     }
 
     &--smaller{
         padding: $s-mob--bigger/2 0 $s-mob--small/2;
+
+        
+        @include tb{
+            padding: $s-tab--bigger/2 0 $s-tab--small/2;
+        }
+        @include lg{
+            padding: $s-desk--bigger/2 0 $s-desk--small/2;
+        }
     }
 
     &--smallest{
         padding: $s-mob--small 0 $s-mob--smaller;
+
+        @include tb{
+            padding: $s-tab--small 0 $s-tab--smaller;
+        }
+        @include lg{
+            padding: $s-desk--small 0 $s-desk--smaller;
+        }
     }
 }
 
 .list{
     margin: 0 0 0 $s-mob--small;
+
+    
+    @include tb{
+        margin: 0 0 0 $s-tab--small;
+    }
+    @include lg{
+        margin: 0 0 0 $s-desk--small;
+    }
     
     .list__el{
         margin-bottom: $s-mob--medium;
@@ -66,22 +119,62 @@ p{
 .section {
     padding: 0 $s-mob--big;
 
-    &--what, &--lifestyle, &--footer{
+    
+    @include tb{
+        padding: 0 $s-tab--big;
+    }
+    @include lg{
+        padding: 0 $s-desk--big;
+    }
+
+    &--what, &--lifestyle, &--footer, &--lifecycle{
         padding: $s-mob--bigger $s-mob--big;
 
         
         @include sm{
-            padding: $s-mob--bigger $s-mob--bigger;
+            padding: $s-mob--bigger;
+        }
+
+        @include tb{
+            padding: $s-tab--bigger;
+        }
+        @include lg{
+            padding: $s-desk--bigger;
         }
     }
 
     &--main{
         padding: inherit;
         margin:  $s-mob--bigger 0 0;
+
+        
+        @include tb{
+            margin: $s-tab--bigger 0 0;
+        }
+        @include lg{
+            margin: $s-desk--bigger 0 0;
+        }
     }
 
     &--lifestyle{
         padding-top: 0;
+        // padding: 0 20% $s-tab--bigger;
+        box-sizing: border-box;
+   
+        @include tb{
+            padding: $s-tab--bigger;
+        }
+        @include lg{
+            padding: $s-desk--bigger;
+        }
+
+    }
+
+    &--lifecycle{
+        padding-top: 0;
+        margin-left: auto;
+        max-width: 550px;
+        margin-right: auto;
     }
 
     &--header{
@@ -93,6 +186,10 @@ p{
             width: 80%;
             padding-left: $s-tab--bigger;
             box-sizing: border-box;
+        }
+
+        @include lg{
+            padding-left: $s-desk--bigger;
         }
 
         a{
@@ -114,29 +211,67 @@ p{
 
         @include tb{
             width: 80%;
-            padding: $s-tab--bigger $s-tab--bigger*2;
+            padding: $s-tab--bigger;
             box-sizing: border-box;
         }
 
+        @include lg{
+            padding: $s-desk--bigger;
+        }
+
+        .img--big{
+            width: 100% ;
+            margin-left: 0;
+        }
     }
 
     &--footer{
         .title--small{
             padding: $s-mob--medium 0 $s-mob--smaller $s-mob--small;
+
+            
+            @include tb{
+                padding: $s-tab--medium 0 $s-tab--smaller $s-tab--small;
+            }
+            @include lg{
+                padding: $s-desk--medium 0 $s-desk--smaller $s-desk--small;
+            }
         }
 
         .list{
             margin-left: $s-mob--small*2;
 
+                
+            @include tb{
+                margin-left: $s-tab--small*2;
+            }
+            @include lg{
+                margin-left: $s-desk--small*2;
+            }
+
             .list__el{
                 .subtitle{
-                    margin: $s-mob--smaller/4 $s-mob--small 0;
+                    margin: $s-mob--smaller/4 $s-mob--small 0;     
+                    @include tb{
+                        margin: $s-tab--smaller/3 $s-tab--small 0;
+                    }
+                    @include lg{
+                        margin: $s-desk--smaller/3 $s-tab--small 0;
+                    }
                 }
             }
 
             &--contact{
                 text-indent: -$s-mob--small;
                 margin-left: $s-mob--small*3;
+                @include tb{
+                    text-indent: -$s-tab--small;
+                    margin-left: $s-tab--small*3;
+                }
+                @include lg{
+                    text-indent: -$s-desk--small;
+                    margin-left: -$s-desk--small*3;
+                }
 
                 .list__el::before{
                     content: " ";
@@ -148,6 +283,16 @@ p{
                     display: inline-block;
                     background-size: contain;
                     vertical-align: text-bottom;  
+                    @include tb{
+                        width: $s-tab--small;
+                        height: $s-tab--small;
+                        left: -$s-tab--small;
+                    }
+                    @include lg{
+                        width: $s-desk--small;
+                        height: $s-desk--small;
+                        left: -$s-desk--small;
+                    }
                 }
         
                 .list__el:nth-child(2)::before{
@@ -162,7 +307,16 @@ p{
                 border-top: 1px solid $c-white;
                 padding: $s-mob--small 0 0;
                 margin: $s-mob--bigger auto $s-mob--small;
-            
+                        
+                @include tb{
+                    padding: $s-tab--small 0 0;
+                    margin: $s-tab--bigger auto $s-mob--small;
+                }
+                @include lg{
+                    padding: $s-desk--small 0 0;
+                    margin: $s-desk--bigger auto $s-desk--small;
+                }
+                
                 .list__el{
                     margin: 0 5%;
                     transition: 300ms;
@@ -175,7 +329,16 @@ p{
 
                 .img{
                     max-width: $s-mob--medium;
-                    max-height: $s-mob--medium;   
+                    max-height: $s-mob--medium;  
+
+                    @include tb{
+                        max-width: $s-tab--medium;
+                        max-height: $s-tab--medium;
+                    }
+                    @include lg{
+                        max-width: $s-desk--medium;
+                        max-height: $s-desk--medium;
+                    }
                 }
             }
         }  
@@ -186,6 +349,15 @@ a{
     svg{
         width: $s-mob--big*2;
         height: $s-mob--big*2;
+        
+        @include tb{
+            width: $s-tab--big;
+            height: $s-tab--big;
+        }
+        @include lg{
+            width: $s-desk--big;
+            height: $s-desk--big;
+        }
 
         .ear{
             transform-origin: bottom;
@@ -193,12 +365,12 @@ a{
         }
         
         &:hover .ear{
-                animation: flapping 1.5s cubic-bezier(0, 0.55, 0.45, 1);
-    
-                &--right{
-                animation-delay: 20ms;
-    
-                }
+            animation: flapping 1.5s cubic-bezier(0, 0.55, 0.45, 1);
+
+            &--right{
+            animation-delay: 20ms;
+
+            }
         }
     }
 }
@@ -217,6 +389,12 @@ a{
 
     p{
         margin-left: $s-mob--smaller;
+        @include tb{
+            margin-left: $s-tab--smaller;
+        }
+        @include lg{
+            margin-left: $s-desk--smaller;
+        }
     }
 }
 
@@ -226,10 +404,21 @@ a{
 
     @include tb{
         max-width: 550px;
+        padding: $s-tab--bigger $s-tab--big;
+    }
+
+    @include lg{
+        padding: $s-desk--bigger $s-desk--big;
     }
 
     p{
         margin-left: $s-mob--small;
+        @include tb{
+            margin-left: $s-tab--small;
+        }
+        @include lg{
+            margin: $s-desk--small;
+        }
     }
 
     a{
@@ -238,6 +427,12 @@ a{
         transition: 400ms cubic-bezier(0, 0.55, 0.45, 1);
         max-width: 550px;
         box-shadow: inset 0 0 0 0.01px $c-yellow--dark;
+        @include tb{
+            padding: $s-tab--smaller 0;
+        }
+        @include lg{
+            padding: $s-desk--smaller 0;
+        }
 
         &:hover{
             color: $c-black;
@@ -246,3 +441,40 @@ a{
     }
 }
 
+.img{
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    margin: $s-mob--medium 0;
+
+    @include tb{
+        margin: $s-tab--medium 0;
+    }
+
+    @include lg{
+        margin: $s-desk--medium 0;
+    }
+
+    &--big{
+        width: calc(100% + 1.728em*2);
+        margin: 0;
+        margin-left: -$s-mob--big;
+
+        max-width: inherit;
+        // faudra changer la valeur à chaque fois
+
+        
+        @include sm{
+            width: calc(100% + 2.986em*2);
+            margin: 0;
+            margin-left: -$s-mob--bigger;
+        }
+
+        @include tb{
+            // width: 132.5%;
+            // width: calc(115% + 4.624em*2);
+
+            // margin-left: -15%;
+        }
+    }
+}
