@@ -134,7 +134,7 @@ p{
             @include lg{
                 padding: $s-desk--bigger*2;
                 width: 60%;
-                // max-width: 650px;
+                max-width: 650px;
             }
 
     &--main{
@@ -183,6 +183,33 @@ p{
         @include lg{
             margin-bottom: $s-desk--bigger*3;
 
+        }
+    }
+
+    &--lifestyle{
+        padding-top: 0;
+
+        .title{
+            @include tb{
+                margin-top: -$s-tab--big;
+            }
+
+            @include lg{
+                margin-top: -$s-desk--bigger;
+
+            }
+        }
+    }
+
+    &--lifecycle{
+        padding-bottom: $s-mob--medium;
+
+        @include tb{
+            padding-bottom: $s-tab--medium;
+        }
+
+        @include lg{
+            padding-bottom: $s-desk--medium;
         }
     }
     &--footer{
@@ -405,7 +432,7 @@ a{
 
     @include tb{
         max-width: 550px;
-        padding: $s-tab--bigger $s-tab--big;
+        padding: $s-tab--big $s-tab--big;
     }
 
     @include lg{
@@ -456,12 +483,12 @@ a{
         margin: $s-desk--medium 0;
     }
 
-    &--big{
+    &-big{
         width: calc(100% + 1.728em*2);
         margin: 0;
         margin-left: -$s-mob--big;
 
-        max-width: inherit;
+        max-width: unset;
         // faudra changer la valeur à chaque fois
 
         
@@ -479,9 +506,45 @@ a{
 
         @include lg{
             width: calc(100% + 3.052em * 4);
-            // max-width: 650px;
+            max-width: unset;
             margin-left: -$s-desk--bigger*2;
-            // width: 10050px;
+
+        }
+
+        &--header{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--lifecycle{
+            margin: 0;
+            display: block;
+        }
+
+        &--trans{
+            position: relative;
+
+            @include tb{
+                top: -$s-tab--big*3;
+            }
+
+            @include lg{
+                top: -$s-desk--bigger*3;
+            }
         }
     }
+
+    &-container{
+        padding: 0;
+        margin: 0 auto;
+
+        .img{
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
 }
