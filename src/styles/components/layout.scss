@@ -3,10 +3,6 @@ body{
     margin: 0;
 }
 
-.list{
-    padding: 0;
-}
-
 .subtitle{
     display: block;
 }
@@ -20,8 +16,12 @@ p{
     max-width: 450px;
 
     @include tb{
-        max-width: 550px;
+        max-width: 500px;
         margin: 0 0 $s-tab--small;
+    }
+
+    @include lg{
+        max-width: 550px;
     }
 }
 
@@ -82,7 +82,7 @@ p{
 
         
         @include tb{
-            padding: $s-tab--bigger/2 0 $s-tab--small/2;
+            padding: $s-tab--big/2 0 $s-tab--small/2;
         }
         @include lg{
             padding: $s-desk--bigger/2 0 $s-desk--small/2;
@@ -102,9 +102,9 @@ p{
 }
 
 .list{
+    padding: 0;
     margin: 0 0 0 $s-mob--small;
 
-    
     @include tb{
         margin: 0 0 0 $s-tab--small;
     }
@@ -118,59 +118,45 @@ p{
 }
 
 .section {
-    padding: 0 $s-mob--big;
-
-    
-    @include tb{
-        padding: 0 $s-tab--big;
-    }
-    @include lg{
-        padding: 0 $s-desk--big;
-    }
-
-    &--what, &--lifestyle, &--footer, &--lifecycle{
-        padding: $s-mob--bigger $s-mob--big;
-
-        
-        @include sm{
-            padding: $s-mob--bigger;
-        }
-
-        @include tb{
-            padding: $s-tab--bigger;
-        }
-        @include lg{
-            padding: $s-desk--bigger;
-        }
-    }
+    margin-left: auto;
+    margin-right: auto;
+    padding: $s-mob--big $s-mob--big $s-mob--small;
+            
+            @include sm{
+                padding: $s-mob--bigger $s-mob--bigger;
+            }
+            
+            @include tb{
+                padding: $s-tab--bigger;
+                width: 70%;
+            }
+            
+            @include lg{
+                padding: $s-desk--bigger*2;
+                width: 60%;
+                // max-width: 650px;
+            }
 
     &--main{
         padding: inherit;
-        margin:  $s-mob--bigger 0 0;
-
-        
-        @include tb{
-            margin: $s-tab--bigger 0 0;
-        }
-        @include lg{
-            margin: $s-desk--bigger 0 0;
-        }
+        margin: auto;
+        max-width: inherit;
+        width: inherit;
     }
 
     &--header{
-        margin-top: $s-mob--bigger;
-        margin-left: auto;
-        margin-right: auto;
+        padding: $s-mob--bigger $s-mob--big $s-mob--big ;
+        position: relative;
 
         @include tb{
-            width: 80%;
-            padding-left: $s-tab--bigger;
-            box-sizing: border-box;
+            left: -$s-tab--big;
+            padding: $s-tab--bigger 0 $s-tab--big 0;
+
         }
 
         @include lg{
-            width: 60%;
-            padding-left: $s-desk--bigger;
+            left: -$s-desk--big;
+            padding: $s-desk--biggest 0 $s-desk--big 0;
         }
 
         a{
@@ -183,87 +169,35 @@ p{
                 flex-shrink: 0;
             }
         }
-    }
-
-
-    &--what{
-        margin-left: auto;
-        margin-right: auto ;
-
-
-        @include tb{
-            width: 80%;
-            padding: $s-desk--bigger $s-tab--bigger;
-            box-sizing: border-box;
-        }
-
-        @include lg{
-            width: 60%;
-            padding: $s-desk--bigger $s-desk--bigger*2;
-        }
 
         .img--big{
-            width: 100% ;
-            margin-left: 0;
+            width: 100%;
         }
     }
 
-    &--lifestyle{
-        padding-top: 0;
-
-        .lifestyle-content{
-            margin-left: auto;
-            margin-right: auto;
-            // box-sizing: border-box;
-        }
-   
+    &--what{
         @include tb{
-
-            .lifestyle-content{
-                width: 80%;
-                padding-left: $s-tab--bigger;
-
-            }
+            margin-bottom: $s-tab--big*3;
         }
 
         @include lg{
-            
-            .lifestyle-content{
-                width: 60%;
-                padding-left: $s-desk--bigger*2;
+            margin-bottom: $s-desk--bigger*3;
 
-            }
         }
     }
-
-    &--lifecycle{
-        padding-top: 0;
-        margin-left: auto;
-        // padding-left: ;
-        max-width: 550px;
-        margin-right: auto;
-
-        @include tb{
-            // padding-left: -$s-tab--bigger;
-        }
-
-        @include lg{
-            // padding-left: -$s-desk--bigger*2;
-        }
-    }
-
-
     &--footer{
+        padding: $s-mob--big $s-mob--big $s-mob--small;
+        width: inherit;
+        max-width: inherit;
+
         @include tb{
-            padding-left: 10%;
-            padding-right: 10%;
-        };
+            padding: $s-mob--bigger 15%;
+        }
 
         @include lg{
-            padding-left: 20%;
-            padding-right: 20%;
-
+            padding: $s-mob--bigger 20%;
         }
+
         .title--small{
             padding: $s-mob--medium 0 $s-mob--smaller $s-mob--small;
 
@@ -286,14 +220,20 @@ p{
                 justify-content: space-between;
                 
                 .list-container{
-                    width: 50%;
+                    width: 40%;
+                    flex-grow: 1;
                     
-                    &--social{
+                    &:nth-child(2){
+                        flex-grow: 0;
+                    }
+
+                    &:nth-child(3){
                         width: 100%;
                     }
                 }
             }
         }
+
         .list{
             margin-left: $s-mob--small*2;
    
@@ -319,6 +259,7 @@ p{
             &--contact{
                 text-indent: -$s-mob--small;
                 margin-left: $s-mob--small*3;
+
                 @include tb{
                     text-indent: -$s-tab--small;
                     margin-left: $s-tab--small*3;
@@ -337,7 +278,8 @@ p{
                     background-image: url(../../assets/images/smartphone--white.svg);
                     display: inline-block;
                     background-size: contain;
-                    vertical-align: text-bottom;  
+                    vertical-align: text-bottom;
+
                     @include tb{
                         width: $s-tab--small;
                         height: $s-tab--small;
@@ -532,13 +474,14 @@ a{
         @include tb{
             width: calc(100% + 4.624em*2);
 
-            margin-left: -$s-tab--bigger*3;
+            margin-left: -$s-tab--bigger;
         }
 
         @include lg{
-            width: calc(100% + 3.052em*3);
-
-            margin-left: -$s-desk--bigger*3;
+            width: calc(100% + 3.052em * 4);
+            // max-width: 650px;
+            margin-left: -$s-desk--bigger*2;
+            // width: 10050px;
         }
     }
 }
