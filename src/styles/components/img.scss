@@ -6,11 +6,17 @@
 
     &--big{
         width: calc(100% + 1.728em*2);
-        height: calc(100% + 1.728em*2);
         margin: 0;
         margin-left: -$s-mob--big;
 
         max-width: inherit;
         // faudra changer la valeur à chaque fois
+
+        
+        @include sm{
+            width: calc(100% + 2.986em*2);
+            margin: 0;
+            margin-left: -$s-mob--bigger;
+        }
     }
 }

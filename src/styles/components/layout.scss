@@ -17,7 +17,11 @@ small{
 
 p{
     margin: 0 0 $s-mob--small;
-    max-width: 550px;
+    max-width: 450px;
+
+    @include tb{
+        max-width: 550px;
+    }
 
 }
 
@@ -64,6 +68,11 @@ p{
 
     &--what, &--lifestyle, &--footer{
         padding: $s-mob--bigger $s-mob--big;
+
+        
+        @include sm{
+            padding: $s-mob--bigger $s-mob--bigger;
+        }
     }
 
     &--main{
@@ -101,6 +110,7 @@ p{
     &--what{
         margin-left: auto;
         margin-right: auto ;
+
 
         @include tb{
             width: 80%;

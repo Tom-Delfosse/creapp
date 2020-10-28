@@ -14,7 +14,10 @@ a{
     &--bigger{
         font-size: $s-mob--big;
         text-transform: uppercase;
-        @include tb{}
+        @include tb{
+            font-size: $s-tab--mediumer;
+
+        }
         @include lg{
             font-size: $s-desk--mediumer;
         }
@@ -25,7 +28,10 @@ a{
         font-family: 'Zilla Slab', serif;
         font-weight: 100;
 
-        @include tb{}
+        @include tb{
+            font-size: $s-tab--small;
+            
+        }
         @include lg{
             font-size: $s-desk--small;
 
@@ -38,7 +44,11 @@ a{
         font-weight: 100;
         font-variant: small-caps;
         letter-spacing: 2px;
-        @include tb{}
+
+        @include tb{
+            font-size: $s-tab--mediumer;
+        }
+
         @include lg{
             font-size: $s-desk--mediumer;
         }
@@ -51,9 +61,18 @@ a{
 
         .subtitle{
             font-size: $s-mob--smallest;
+                
+            @include tb{
+                font-size: $s-tab--smallest;
+            }
+            @include lg{
+                font-size: $s-desk--smaller;
+            }
         }
 
-        @include tb{}
+        @include tb{
+            font-size: $s-tab--mediumer;
+        }
         @include lg{
             font-size: $s-desk--bigger;
         }
@@ -64,8 +83,13 @@ a{
         font-size: $s-mob--big;
         font-variant: small-caps;
         font-weight: 700;
+        line-height: 110%;
 
-        @include tb{}
+
+        @include tb{
+            font-size: $s-tab--big;
+
+        }
         @include lg{
             font-size: $s-desk--big;
         }
@@ -76,7 +100,10 @@ a{
         font-family: 'Zilla Slab', serif;
         font-weight: 600;
 
-        @include tb{}
+        @include tb{
+            font-size: $s-tab--medium;
+
+        }
         @include lg{
             font-size: $s-desk--mediumer;
         }
@@ -90,9 +117,11 @@ a{
 p{
     font-size: $s-mob--small;
     font-weight: 300;
-
     line-height: 160%;
-    @include tb{}
+    @include tb{
+    font-size: $s-tab--small;
+        
+    }
     @include lg{
         font-size: $s-desk--medium;
     }
@@ -125,7 +154,10 @@ p{
     .list{
         font-weight: 600;
         font-size: $s-mob--small;        
-        @include tb{}
+        @include tb{
+            font-size: $s-tab--small;
+
+        }
         @include lg{
             font-size: $s-desk--medium;
         }
@@ -142,6 +174,14 @@ p{
         text-transform: uppercase;
         text-align: center;
         font-size: $s-mob--medium;
+
+        @include tb{
+            font-size: $s-tab--medium;
+        }
+
+        @include lg{
+            font-size: $s-desk--big;
+        }
     }
 }
 
@@ -151,7 +191,10 @@ small{
     font-family: 'Work Sans', sans-serif;   
     font-size: $s-mob--smallest;  
 
-    @include tb{}
+    @include tb{
+        font-size: $s-tab--smaller;
+
+    }
     @include lg{
         font-size: $s-desk--smaller;
     }
