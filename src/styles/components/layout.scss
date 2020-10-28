@@ -203,13 +203,16 @@ p{
 
     &--lifecycle{
         padding-bottom: $s-mob--medium;
+        padding-top: $s-mob--medium ;
 
         @include tb{
             padding-bottom: $s-tab--medium;
+            padding-top: $s-tab--medium ;
         }
 
         @include lg{
             padding-bottom: $s-desk--medium;
+            padding-top: $s-desk--medium ;
         }
     }
     &--footer{
@@ -245,6 +248,7 @@ p{
                 margin-left: auto;
                 margin-right: auto;
                 justify-content: space-between;
+                align-items: flex-start;
                 
                 .list-container{
                     width: 40%;
@@ -283,6 +287,40 @@ p{
                 }
             }
 
+            &--contributors{
+                .list__el {
+                    a:hover{
+                        box-shadow: inset 0 50px 0 0 $c-white;
+                        color: $c-black;
+
+                        .subtitle{
+                            box-shadow: inset 200px 0 0 0 $c-white;
+
+                            @include tb{
+                                box-shadow: inset 250px 0 0 0 $c-white;
+
+                            }
+
+                            @include lg{
+                                box-shadow: inset 200px 0 0 0 $c-white;
+                            }
+
+                        }
+                    }
+
+                    a {
+                        box-shadow: inset 0 0 0 0.01px $c-white;
+                        transition: 300ms cubic-bezier(0.2, 0.68, 0.45, 1);
+
+                        .subtitle{
+                            display: block;
+                            transition: 300ms cubic-bezier(0.2, 0.68, 0.45, 1);
+                            box-shadow: inset 0 0 0 0.01px $c-white;
+                        }
+                    }
+                }
+            }
+
             &--contact{
                 text-indent: -$s-mob--small;
                 margin-left: $s-mob--small*3;
@@ -295,6 +333,8 @@ p{
                     text-indent: -$s-desk--small;
                     margin-left: $s-desk--small*3;
                 }
+
+
 
                 .list__el::before{
                     content: " ";
@@ -513,13 +553,18 @@ a{
 
         &--header{
             display: block;
-            margin-left: auto;
             margin-right: auto;
+
+            @include lg{
+                max-width: 600px;
+                margin-left: 0;
+            }
         }
 
         &--lifecycle{
             margin: 0;
-            display: block;
+            width: 100%;
+            max-width: 650px;
         }
 
         &--trans{
@@ -538,6 +583,15 @@ a{
     &-container{
         padding: 0;
         margin: 0 auto;
+
+        @include tb{
+            margin: $s-tab--bigger auto 0;
+        }
+
+        @include lg{
+            margin: $s-desk--biggest auto 0;
+        }
+
 
         .img{
             max-width: 650px;
